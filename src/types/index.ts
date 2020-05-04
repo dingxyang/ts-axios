@@ -20,7 +20,7 @@ export type Method =
   | 'unlink'
   | 'UNLINK'
 
-export interface AxisoRequestConfig {
+export interface AxiosRequestConfig {
   url: string
   method?: Method
   data?: any
