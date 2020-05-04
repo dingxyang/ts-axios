@@ -1,6 +1,6 @@
-import { AxisoRequestConfig } from './types'
+import { AxiosRequestConfig } from './types'
 
-export default function xhr(config: AxisoRequestConfig) {
+export default function xhr(config: AxiosRequestConfig) {
   const { data = null, url, method = 'get' } = config
 
   const request = new XMLHttpRequest()
